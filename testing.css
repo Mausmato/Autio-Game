@@ -8,8 +8,7 @@ html {
   height: 100%;
 }  
 body{
-  background-image: linear-gradient(to bottom right, #213438,#445054,#3f5c5e,#55706c);
-  
+  background-image: linear-gradient(#121d26,#2c3a4d,#445054);
 }
 
 header{
@@ -22,8 +21,10 @@ header{
     padding: 0;
 }
 
-
-
+.road {
+    width: 650px;
+    margin-right: 25px;
+}
 
 li, a, button {
     font-family: "Montserrat", sans-serif;
@@ -42,11 +43,9 @@ header {
 
 .logo {
     cursor: pointer;
-    width: 100px;
+    width: 150px;
     margin-right: auto;
     margin-left: -10px;
-    margin-bottom: 10px
-
 }
 
 .logo:hover {
@@ -55,16 +54,14 @@ header {
 
 .nav_links {
     list-style: none;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 25px;
+
 }
 
 .nav_links li {
     display: inline-block;
-    margin-right: 25px;
-    margin-left: auto;
+    margin-right: 50px;
     padding: 0px 30px'
-
 }
 
 .nav_links li a {
@@ -75,27 +72,17 @@ header {
     color: #c2cbd1
   }
 
-  button{
+button{
     padding: 9px 25px;
-    background-color: #c2cbd1;
+    background-color: #151d29;
     border: none;
-    border-radius: 58px;
+    border-radius: 50px;
     cursor: pointer;
-    color: #fff;
-    background: #c2cbd1;
-    text-transform: uppercase;
     transition: all 0.5s ease 0.1s;
     margin-right: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    -webkit-transform-duration: 0.2s;
-    transition-duration: 0.2s;
-    -webkit-transition-property: box-shadow, transform;
-    transition-property: box-shadow, transform;
 }
 
-button:hover, button:focus, button:active {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+button:hover {
+    background-color: #c2cbd1 ;
+    opacity: 0.75;
 }
-
